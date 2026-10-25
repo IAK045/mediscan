@@ -1,0 +1,39 @@
+**/.dart_tool/
+**/.packages
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.idea/
+**/.vscode/
+backend/.env
+backend/.venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+
+# Additional safety rules
+.env
+.env.*
+!.env.example
+**/local.properties
+**/key.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+**/android_backup_*/
+**/.venv/
+**/venv/
+
+# Do not upload audit archives or temporary backups
+MediScan_source_audit.zip
+**/*backup*
+**/*.pyc
+**/__pycache__/
+
+# Backend is maintained in its own GitHub repository
+/backend/.git/
+
+# Backend is maintained in a separate GitHub repository
+/backend/

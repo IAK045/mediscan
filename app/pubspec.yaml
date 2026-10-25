@@ -1,0 +1,26 @@
+name: mediscan_ai
+description: MediScan AI medicine-label reader and information assistant.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.9.0
+  flutter_riverpod: ^3.0.3
+  go_router: ^16.2.4
+  flutter_tts: ^4.2.2
+  google_mlkit_text_recognition: ^0.15.0
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
